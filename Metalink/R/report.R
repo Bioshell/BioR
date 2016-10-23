@@ -55,7 +55,7 @@ mytheme <- theme(plot.title = element_text(face = 4,
 par(opar)
 
 # ------Demo------
-meta.prof.demo <- function(){
+report.demo <- function(){
     data(Salaries, package = "car")
     ggplot(Salaries, aes(x = rank, y = salary, fill = sex)) +
         geom_boxplot() +
